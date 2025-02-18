@@ -20,5 +20,4 @@ This project is a simple image classification application built using PyTorch an
 
 ---
 
-## To Use
-Click to Link: https://image-recognition-6jn7ljvtsbxod7zwpardzn.streamlit.app/
+
