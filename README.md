@@ -17,5 +17,5 @@ This project detects faces from images and live webcam feeds using **OpenCV** an
   ## Install the required dependencies using pip:
    pip install open-cv
 
-   ## Run the chatbot script:
+   ## Run the code script:
    python code.py
