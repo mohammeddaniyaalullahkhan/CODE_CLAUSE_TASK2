@@ -21,13 +21,7 @@ Ensure you have Python and OpenCV installed. Run:
   ```bash
   pip install opencv-python
 
-# 2️⃣ Set Up Your Project Folder
-Create a project folder and place:
-
-The Python script (face_detection.py)
-The Haarcascade model (haarcascade_frontalface_default.xml) inside a model folder
-An image (for testing image face detection)
-# 3️⃣ Run the Script
+# 2️⃣ Run the Script
 Open the folder in VS Code, then run:
  ```bash
 python face_detection.py
@@ -35,5 +29,4 @@ python face_detection.py
 To detect faces in an image, replace "image_path" in the script with your image's path.
 The webcam will turn on and detect faces in real time.
 
-# 4️⃣ Stop the Webcam
-Press 'q' to exit the webcam face detection.
+
