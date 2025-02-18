@@ -15,10 +15,26 @@ This project detects faces from images and live webcam feeds using **OpenCV** an
    git clone https://github.com/mohammeddaniyaalullahkhan/CODE_CLAUSE_TASK2.git
    cd CODE_CLAUSE_TASK2
 
-The Image Recognition and Detection System utilizes the OpenCV library, which provides tools for image processing and computer vision tasks. The code consists of two main parts: face detection in an image and live face detection through a webcam feed.
+## Steps to Run the Face Detection Script in VS Code
+1️⃣ Install Dependencies
+Ensure you have Python and OpenCV installed. Run:
 
-For image-based face detection, the code reads an image file specified by the image_path, detects faces using a pre-trained Haar cascade classifier (haarcascade_frontalface_default.xml), and draws rectangles around the detected faces. The detect_faces_image function displays the image with detected faces using OpenCV's imshow function.
 
-For live face detection, the code captures video frames from the webcam using the VideoCapture function. It then applies the same face detection technique to each frame, drawing rectangles around detected faces in real-time. The process continues until the user presses the 'q' key to exit the application.
+pip install opencv-python
 
-Overall, this system provides a simple yet effective way to detect and recognize faces in both static images and live video streams, leveraging the power of OpenCV's computer vision capabilities.
+2️⃣ Set Up Your Project Folder
+Create a project folder and place:
+
+The Python script (face_detection.py)
+The Haarcascade model (haarcascade_frontalface_default.xml) inside a model folder
+An image (for testing image face detection)
+3️⃣ Run the Script
+Open the folder in VS Code, then run:
+
+
+python face_detection.py
+
+To detect faces in an image, replace "image_path" in the script with your image's path.
+The webcam will turn on and detect faces in real time.
+4️⃣ Stop the Webcam
+Press 'q' to exit the webcam face detection.
