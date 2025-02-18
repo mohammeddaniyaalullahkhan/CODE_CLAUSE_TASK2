@@ -18,8 +18,8 @@ This project detects faces from images and live webcam feeds using **OpenCV** an
 ## Steps to Run the Face Detection Script in VS Code
 # 1️⃣ Install Dependencies
 Ensure you have Python and OpenCV installed. Run:
- ```bash
-pip install opencv-python
+  ```bash
+  pip install opencv-python
 
 # 2️⃣ Set Up Your Project Folder
 Create a project folder and place:
